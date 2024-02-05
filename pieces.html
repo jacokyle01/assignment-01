@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- connect to bootstrap CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+
+        <style>
+            .price {
+                color: darkgrey;
+            }
+            tr {
+                text-align: center;
+            }
+            th, td {
+                padding: 10px;
+            }
+        </style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="#">Carousel</a>
+                <a href="index.html">Chess Boards</a>
+				<a href="author.html">Author's Page</a>
+				<!-- <div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li>
+					</ul>
+					<form class="form-inline mt-2 mt-md-0">
+						<input
+							class="form-control mr-sm-2"
+							type="text"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+							Search
+						</button>
+					</form>
+				</div>  -->
+			</nav>
+		</header>
+
+		<main role="main">
+			<!-- Marketing messaging and featurettes
+          ================================================== -->
+			<!-- Wrap the rest of the page in another container to center all the content. -->
+            
+			<div class="container marketing">
+				<!-- Three columns of text below the carousel -->
+				<div class="row">
+                    <table>
+                        <tr>
+                            <th><h2>Glass Set</h2></th>
+                            <th><h2>Wood Set</h2></th>
+                            <th><h2>Fantasy Set</h2></th>
+                            <th><h2>Minimal Set</h2></th>
+                        </tr>
+                        <tr>
+                            <td>Click to see our glass chess pieces.</td>
+                            <td>Click to see our wood chess pieces.</td>
+                            <td>Click to see our fantasy chess pieces.</td>
+                            <td>Click to see our minimal chess pieces.</td>
+                        </tr>
+                        <tr>
+                            <td><a class="btn btn-secondary" href="#crystal" role="button">View details &raquo;</a></td>
+                            <td><a class="btn btn-secondary" href="#wood" role="button">View details &raquo;</a></td>
+                            <td><a class="btn btn-secondary" href="#fantasy" role="button">View details &raquo;</a></td>
+                            <td><a class="btn btn-secondary" href="#minimal" role="button">View details &raquo;</a></td>
+                        </tr>
+                    </table>
+					<!-- <div class="col-lg-4">
+						<h2>Glass</h2>
+						<p>
+							Click to see our glass chess pieces.
+						</p>
+						<p>
+							<a class="btn btn-secondary" href="#crystal" role="button"
+								>View details &raquo;</a
+							>
+						</p>
+					</div> -->
+					<!-- /.col-lg-4 -->
+					<!-- <div class="col-lg-4">
+						<h2>Wood</h2>
+						<p>
+							Click to see our mahogany chess pieces.
+						</p>
+						<p>
+							<a class="btn btn-secondary" href="#wood" role="button"
+								>View details &raquo;</a
+							>
+						</p>
+					</div> -->
+					<!-- /.col-lg-4 -->
+					<!-- <div class="col-lg-4">
+						<h2>Erudite</h2>
+						<p>
+							Click to see our fantastical chess pieces.
+						</p>
+						<p>
+							<a class="btn btn-secondary" href="#fantasy" role="button"
+								>View details &raquo;</a
+							>
+						</p>
+					</div> -->
+					<!-- /.col-lg-4 -->
+                    <!-- <div class="col-lg-4">
+						<h2>Minimal</h2>
+						<p>
+							Click to see our minimalist chess pieces.
+						</p>
+						<p>
+							<a class="btn btn-secondary" href="#minimal" role="button"
+								>View details &raquo;</a
+							>
+						</p>
+					</div> -->
+				</div>
+				<!-- /.row -->
+
+				<!-- START THE FEATURETTES -->
+
+				<hr class="featurette-divider" />
+
+                <a id="crystal"></a>
+				<div class="row featurette">
+					<div class="col-md-7">
+						<h2 class="featurette-heading">
+							Premium Crystalline Chess Pieces.
+							<span class="text-muted">by Superior Chess Productions.</span>
+						</h2>
+                        <p class="price">$21.99 USD</p>
+						<p class="lead">
+							These glass chess pieces are visually stunning, while remaining sturdy. This stunning set contains both pieces
+                            with both smooth and matte finishes to allow for easy identification. 
+						</p>
+					</div>
+					<div class="col-md-5">
+						<!-- {% include icons/placeholder.svg width="500" height="500"
+						background="#eee" color="#aaa" class="bd-placeholder-img-lg
+						featurette-image img-fluid mx-auto" %} -->
+						<img src="images/GlassChessPieces.jpeg" alt="" srcset="" />
+					</div>
+				</div>
+                
+				<hr class="featurette-divider" />
+
+                <a id="wood"></a>
+				<div class="row featurette">
+					<div class="col-md-7 order-md-2">
+						<h2 class="featurette-heading">
+							Fine Mahogany Pieces. 
+							<span class="text-muted">by Superior Chess Productions</span>
+						</h2>
+                        <p class="price">$29.99 USD</p>
+						<p class="lead">
+							These beautiful wooden chess pieces have each been hand-carved to perfection with care.
+                            This set contains pieces of both a rich red and a creamy mocha coloring with a glossy finish.
+                            For the true connoisseur. 
+						</p>
+					</div>
+					<div class="col-md-5 order-md-1">
+						<img src="images/WoodChessPieces.webp" width="450" height="450" alt="" srcset="" />
+					</div>
+                </div>
+
+
+				<hr class="featurette-divider" />
+
+                <a id="fantasy"></a>
+				<div class="row featurette">
+					<div class="col-md-7">
+						<h2 class="featurette-heading">
+							Mystical Chess Set. <span class="text-muted">by Erudite Chess Makers .</span>
+						</h2>
+                        <p class="price">$35.99 USD</p>
+						<p class="lead">
+							This esoteric chess set is for the player looking to add a little mystery to their game.
+                            Stylized pieces such as wizards, dragons, and skeletons add a fantastical flavor to the game.
+						</p>
+					</div>
+					<div class="col-md-5">
+						<img src="images/FantasyChessPieces.avif" width="550" height="400" alt="" srcset="" />
+					</div>
+				</div>
+
+				<hr class="featurette-divider" />
+
+                <a id="minimal"></a>
+				<div class="row featurette">
+					<div class="col-md-5">
+						<img src="images/MinimalistChessPieces.jpeg" width="540" height="350" alt="" srcset="" />
+					</div>
+					<div class="col-md-7">
+						<h2 class="featurette-heading">
+							Abstract Chess Set. <span class="text-muted">by Royal Checkmate.</span>
+						</h2>
+                        <p class="price">$89.99 USD</p>
+						<p class="lead">
+							Carved from metal, these chess pieces are minimalist in design, reminiscient of Frank Stella.
+                            Your interpretation of these marvelous pieces is largely left to the imagination.
+						</p>
+					</div>
+				</div>
+				<hr class="featurette-divider" />
+
+				<!-- /END THE FEATURETTES -->
+			</div>
+			<!-- /.container -->
+
+			<!-- FOOTER -->
+			<footer class="container">
+				<p class="float-right"><a href="#">Back to top</a></p>
+				<p>
+					&copy; 2023 COMS319 &middot;
+					<a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>
